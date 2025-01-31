@@ -17,7 +17,7 @@ let isServerListening = false;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://127.0.0.1:5173'], // Allow both localhost and IP
+  origin: ['http://localhost:5173', 'https://frontend-a627.vercel.app'], // Allow both localhost and IP
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
